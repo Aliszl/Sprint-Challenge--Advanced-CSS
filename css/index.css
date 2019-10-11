@@ -160,6 +160,23 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+header .navBar {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: unset;
+  justify-content: unset;
+}
+header .navBar nav {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: unset;
+  justify-content: unset;
+}
+header .navBar nav a {
+  color: black;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +186,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+html {
+  font-size: 62.5%;
 }
 .home .intro h2 {
   padding: 15px;
@@ -211,6 +231,15 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  font-size: 4 rem;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  width: 25%;
 }
 .home .walk .walk-img {
   width: 46%;
