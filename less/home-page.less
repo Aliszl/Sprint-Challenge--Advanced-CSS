@@ -1,7 +1,7 @@
 // Home Content
-html{
-  font-size: 62.5%;
-}
+// html{
+//   font-size: 62.5%;
+// }
 .home {
 
   .intro {
@@ -11,9 +11,9 @@ html{
     }
 
     p {
-      padding:0 15px;
+      padding: 0 15px;
     }
-  
+
   }
 
   .space-images {
@@ -26,6 +26,22 @@ html{
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+    }
+
+    @media @phone {
+      .sky {
+        display: none;
+      }
+
+      .launch {
+        display: none;
+      }
+
+      .blast {
+        width: 80%;
+        margin: 20px 10%;
+      }
+
     }
   }
 
@@ -68,7 +84,7 @@ html{
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      
+
       img {
         width: 100%;
         height: auto;
@@ -76,4 +92,6 @@ html{
       }
     }
   }
-}// home
+}
+
+// home

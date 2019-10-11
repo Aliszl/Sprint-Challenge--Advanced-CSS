@@ -140,11 +140,14 @@ body {
   font-family: 'Ubuntu', sans-serif;
   color: #5E6164;
 }
-h1,
 h2,
 h3,
 h4,
 h5 {
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
+}
+h1 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
 }
@@ -171,6 +174,9 @@ p {
   flex-wrap: no-wrap;
   justify-content: center;
 }
+.navBar .spacewalkers-title {
+  padding: 8px 0 4px 0;
+}
 .navBar nav {
   width: 40%;
   margin: 10px 0;
@@ -192,9 +198,6 @@ footer {
   justify-content: center;
   align-items: center;
 }
-html {
-  font-size: 62.5%;
-}
 .home .intro h2 {
   padding: 15px;
 }
@@ -211,6 +214,18 @@ html {
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
+}
+@media (max-width: 500px) {
+  .home .space-images .sky {
+    display: none;
+  }
+  .home .space-images .launch {
+    display: none;
+  }
+  .home .space-images .blast {
+    width: 80%;
+    margin: 20px 10%;
+  }
 }
 .home .visit-planets {
   padding: 15px;

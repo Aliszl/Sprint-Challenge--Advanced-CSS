@@ -1,18 +1,17 @@
 // Mixins Here
 // Parametric Mixin
-.stylebutton(@bc:black, @tc:white, @pd: 10px,@t-a:center,@br:5px,@width:25%){
+.stylebutton(@bc: black, @tc: white, @pd: 10px, @t-a: center, @br: 5px, @width: 25%) {
     background-color: @bc;
     color: @tc;
     padding: @pd;
     text-align: @t-a;
     border-radius: @br;
-    width:@width;
+    width: @width;
 }
 
-.flexboxParaMixin(@fd: row,@fw: unset,@jc: unset){
+.flexboxParaMixin(@fd: row, @fw: unset, @jc: unset) {
     display: flex;
     flex-direction: @fd;
     flex-wrap: @fw;
     justify-content: @jc;
-   }
-
+}
