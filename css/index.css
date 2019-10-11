@@ -134,12 +134,15 @@ a {
 }
 html {
   font-size: 62.5%;
+  height: 100%;
 }
 html,
 body {
+  height: 100%;
   font-family: 'Ubuntu', sans-serif;
   color: #5E6164;
 }
+h1,
 h2,
 h3,
 h4,
@@ -148,8 +151,7 @@ h5 {
   color: #23293B;
 }
 h1 {
-  font-family: 'Russo One', sans-serif;
-  color: #23293B;
+  font-size: 6rem;
 }
 h2 {
   font-size: 3.2rem;
@@ -165,6 +167,7 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  height: 100%;
 }
 .navBar {
   text-decoration: none;
