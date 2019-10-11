@@ -1,13 +1,15 @@
 // Navigation code here
 
-header .navBar {
+.navBar {
     text-decoration: none;
-    .flexboxParaMixin();
+    align-items: center;
+    .flexboxParaMixin(column, no-wrap, center);
 
 
     nav {
-        width: 50%;
-        .flexboxParaMixin();
+        width: 40%;
+        margin: 10px 0;
+        .flexboxParaMixin(row, no-wrap, space-between);
 
         // align-items:baseline;
         a {
