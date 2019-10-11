@@ -38,7 +38,7 @@
       }
 
       .blast {
-        width: 80%;
+        width: 95%;
         margin: 20px 10%;
       }
 
@@ -75,9 +75,23 @@
         margin-bottom: 26px;
       }
 
-      .btn {
+        .btn {
+          &:hover {
+          background-color: lighten(black; 30%);
+          }
+
         font-size: 4 rem;
         .stylebutton();
+
+        @media @phone {
+          width: 100%;
+        }
+
+        }
+      @media @phone {
+        padding-top: 20px;
+        
+        width: 100%;
       }
     }
 
@@ -89,9 +103,29 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+        @media @phone {
+          width: 100%;
+        }
+      }
+
+      
+      @media @phone {
+        width: 95%;
+        margin:0 2%;
+        
       }
     }
+
+    @media @phone {
+      // width: 80%;
+      margin: 0 0 0 0;
+      padding: 10px;
+      .flexboxParaMixin(column-reverse, unset, center);
+    }
   }
+
+
 }
+
 
 // home

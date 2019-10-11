@@ -223,7 +223,7 @@ footer {
     display: none;
   }
   .home .space-images .blast {
-    width: 80%;
+    width: 95%;
     margin: 20px 10%;
   }
 }
@@ -261,6 +261,20 @@ footer {
   border-radius: 5px;
   width: 25%;
 }
+.home .walk .walk-text .btn:hover {
+  background-color: #4d4d4d;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text {
+    padding-top: 20px;
+    width: 100%;
+  }
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -269,4 +283,25 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-img img {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .home .walk .walk-img {
+    width: 95%;
+    margin: 0 2%;
+  }
+}
+@media (max-width: 500px) {
+  .home .walk {
+    margin: 0 0 0 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: unset;
+    justify-content: center;
+  }
 }
