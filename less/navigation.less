@@ -1,1 +1,23 @@
 // Navigation code here
+
+.navBar {
+    text-decoration: none;
+    align-items: center;
+    .flexboxParaMixin(column, no-wrap, center);
+
+    .spacewalkers-title {
+        padding: 8px 0 4px 0;
+
+    }
+
+    nav {
+        width: 40%;
+        margin: 10px 0;
+        .flexboxParaMixin(row, no-wrap, space-between);
+
+        // align-items:baseline;
+        a {
+            color: black;
+        }
+    }
+}

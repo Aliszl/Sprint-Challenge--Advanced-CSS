@@ -3,18 +3,32 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
+a {
+  text-decoration: none;
 }
 
-html, body {
+html {
+  font-size: 62.5%;
+  height:100%;
+}
+
+html,
+body {
+  height:100%;
   font-family: 'Ubuntu', sans-serif;
   color: @main-font-color;
 }
-
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: 'Russo One', sans-serif;
   color: @header-font-color;
+}
+
+h1 {
+  font-size: 6rem;
 }
 
 h2 {
@@ -33,6 +47,6 @@ p {
 .container {
   max-width: 800px;
   width: 100%;
-  margin: 0 auto;  
+  margin: 0 auto;
+  height: 100%;
 }
-
